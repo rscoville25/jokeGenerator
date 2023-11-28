@@ -8,7 +8,7 @@ import scala.swing
 
 // setting up the rng
 object randomess:
-  def rngSet = Random.nextInt(setup1.size)
+  def rngSet: Int = Random.nextInt(setup1.size)
   def rndPunch: String = punchline(Random.nextInt(punchline.size))
   def rndNoun: String = nouns(Random.nextInt(nouns.size))
 
